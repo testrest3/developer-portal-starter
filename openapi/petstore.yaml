@@ -35,8 +35,8 @@ paths:
         - pet
       summary: Add a new pet to the store
       operationId: addPet
-      description: |
-        $ref: desc.md
+      description: 
+        $ref: /desc.md
       responses:
         '200':
           description: OK
